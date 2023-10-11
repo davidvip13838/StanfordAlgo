@@ -6,15 +6,11 @@ public class Vertex {
         return edges;
     }
 
-    public void setEdges(ArrayList<Edge> edges) {
-        this.edges = edges;
-    }
-
     public void addEdges(Edge edge){
         this.edges.add(edge);
     }
 
-    public void deleteEdges(Edge edge){
 
-    }
+
+
 }
