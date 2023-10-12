@@ -11,7 +11,7 @@ public class Main {
             vertices.add(new Vertex());
         }
 
-        File file = new File("/Users/ng161/IdeaProjects/StanfordAlgo/KargerMinCut/src/mincuts.txt");
+        File file = new File("C:\\Users\\13109\\IdeaProjects\\StanfordAlgo\\KargerMinCut\\src\\mincuts.txt");
         System.out.println("file found...");
         Scanner scanner = null;
         try {
