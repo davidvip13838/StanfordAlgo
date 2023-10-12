@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 public class Vertex {
-    ArrayList<Edge> edges = new ArrayList<Edge>();
+    private ArrayList<Edge> edges = new ArrayList<Edge>();
 
     public ArrayList<Edge> getEdges() {
         return edges;
@@ -10,7 +10,7 @@ public class Vertex {
         this.edges.add(edge);
     }
 
-
-
-
+    public void setEdges(ArrayList<Edge> edges) {
+        this.edges = edges;
+    }
 }
