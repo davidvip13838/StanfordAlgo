@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Binary tree/Binary tree.iml" filepath="$PROJECT_DIR$/Binary tree/Binary tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/Insertion sort/Insertion sort.iml" filepath="$PROJECT_DIR$/Insertion sort/Insertion sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/KargerMinCut/KargerMinCut.iml" filepath="$PROJECT_DIR$/KargerMinCut/KargerMinCut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KargerMinCut_new/KargerMinCut_new.iml" filepath="$PROJECT_DIR$/KargerMinCut_new/KargerMinCut_new.iml" />
       <module fileurl="file://$PROJECT_DIR$/Merge sort/Merge sort.iml" filepath="$PROJECT_DIR$/Merge sort/Merge sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StanfordAlgo.iml" filepath="$PROJECT_DIR$/.idea/StanfordAlgo.iml" />
     </modules>

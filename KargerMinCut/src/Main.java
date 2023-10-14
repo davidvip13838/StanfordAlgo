@@ -39,6 +39,7 @@ public class Main {
 
         scanner.close();
         Mincut mincut = new Mincut();
+        System.out.print("test");
         int f = mincut.mincut(edges,vertices);
         System.out.print("the min amount of crossings are" + f+ "in this trail");
 
