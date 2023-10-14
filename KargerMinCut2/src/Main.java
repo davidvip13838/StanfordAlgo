@@ -155,13 +155,51 @@ class GFG {
     }
 
     // Driver program to test above functions
-    public static void main (String[] args) {
+    public static void main (String[] args) throws FileNotFoundException {
+        // take in input
+
+        File file = new File("/Users/ng161/IdeaProjects/StanfordAlgo/KargerMinCut/src/mincuts.txt");
+        Scanner scanner = new Scanner(file);
+
+        // find number of edge;
+        int V = 200;
+        int E = 0;
+        while(scanner.hasNextInt()){
+            scanner.nextInt();
+            E++;
+        }
+        // open file again to read from start
+        scanner.close();
+        scanner = new Scanner(file);
+        E = E-200;
+        E = E/2;
+
+        Graph graph = new Graph(V,E);
+
+        int edge_num = 0;
+
+        while(scanner.hasNext()){
+            String line = scanner.nextLine();
+            Scanner lineScanner = new Scanner(line);
+            int curr_vertex = lineScanner.nextInt() -1; // index of vertex
+
+            while(lineScanner.hasNextInt()){
+                int pointer = lineScanner.nextInt();
+                if(pointer < (curr_vertex +1) ){
+                    graph.edge[edge_num] = new Edge(pointer-1 , curr_vertex);
+                    edge_num++;
+                }
+            }
+            lineScanner.close();
+        }
+
+
 		/* Let us create following unweighted graph
 			0------1
 			| \ |
 			| \ |
 			|	 \|
-			2------3 */
+			2------3
         int V = 4; // Number of vertices in graph
         int E = 5; // Number of edges in graph
 
@@ -182,6 +220,7 @@ class GFG {
 
         // add edge 2-3
         graph.edge[4] = new Edge(2,3);
+        */
 
         System.out.println("Cut found by Karger's randomized algo is "+kargerMinCut(graph));
     }
