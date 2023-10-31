@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/KargerMinCut2/KargerMinCut2.iml" filepath="$PROJECT_DIR$/KargerMinCut2/KargerMinCut2.iml" />
       <module fileurl="file://$PROJECT_DIR$/KargerMinCut_new/KargerMinCut_new.iml" filepath="$PROJECT_DIR$/KargerMinCut_new/KargerMinCut_new.iml" />
       <module fileurl="file://$PROJECT_DIR$/Merge sort/Merge sort.iml" filepath="$PROJECT_DIR$/Merge sort/Merge sort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SCC/SCC.iml" filepath="$PROJECT_DIR$/SCC/SCC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StanfordAlgo.iml" filepath="$PROJECT_DIR$/.idea/StanfordAlgo.iml" />
     </modules>
   </component>
