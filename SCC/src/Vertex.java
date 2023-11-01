@@ -1,17 +1,57 @@
 import java.util.ArrayList;
 
 public class Vertex {
-    private ArrayList<Edge> out = new ArrayList<Edge>();
-    private ArrayList<Edge> in = new ArrayList<Edge>();
-    private Vertex leader;
-    private int f_time;
-    private Boolean Visited = false;
+    private ArrayList<Integer> out = new ArrayList<Integer>();
+    private int id;
+    private ArrayList<Integer> in = new ArrayList<Integer>();
 
-    public ArrayList<Edge> getIn() {
+    private int size;
+    private Boolean Visited1;
+    private Boolean Visited2;
+
+    public int getSize() {
+        return size;
+    }
+
+    public void addSize(){
+        this.size++;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public Boolean getVisited1() {
+        return Visited1;
+    }
+
+    public void setVisited1(Boolean visited) {
+        Visited1 = visited;
+    }
+
+    public Boolean getVisited2() {
+        return Visited2;
+    }
+
+    public void setVisited2(Boolean visited2) {
+        Visited2 = visited2;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public ArrayList<Integer> getIn() {
         return in;
     }
 
-    public ArrayList<Edge> getOut() {
+    public ArrayList<Integer> getOut() {
         return out;
+    }
+
+    public Vertex(int id){
+        this.id = id;
+        this.Visited1 = false;
+        this.Visited2 = false;
     }
 }
