@@ -73,6 +73,7 @@ public class SCC {
         for(int i = f_times.size() - 1; i >= 0; i-- ){
             if(vertices.get(f_times.get(i)).getVisited2() == false){
                 S = vertices.get(f_times.get(i));
+                System.out.println("Souce V is " + S.getId());
                 DFS2(f_times.get(i));
                 SCC_size.add(S.getSize());
             }
@@ -98,7 +99,11 @@ public class SCC {
         else{
             System.out.print("finishing list is not correct size ");
         }
-        System.out.println(scc.SCC_size.size());
+        scc.loop2();
+        Collections.sort(scc.SCC_size,Collections.reverseOrder());
+        for(int i = 0; i < 5; i++){
+            System.out.println(scc.SCC_size.get(i));
+        }
 
     }
 }
