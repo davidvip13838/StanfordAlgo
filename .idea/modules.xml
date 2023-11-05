@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Binary tree/Binary tree.iml" filepath="$PROJECT_DIR$/Binary tree/Binary tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dijkstras algo/Dijkstras algo.iml" filepath="$PROJECT_DIR$/Dijkstras algo/Dijkstras algo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Insertion sort/Insertion sort.iml" filepath="$PROJECT_DIR$/Insertion sort/Insertion sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/KargerMinCut/KargerMinCut.iml" filepath="$PROJECT_DIR$/KargerMinCut/KargerMinCut.iml" />
       <module fileurl="file://$PROJECT_DIR$/KargerMinCut2/KargerMinCut2.iml" filepath="$PROJECT_DIR$/KargerMinCut2/KargerMinCut2.iml" />
