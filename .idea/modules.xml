@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/Merge sort/Merge sort.iml" filepath="$PROJECT_DIR$/Merge sort/Merge sort.iml" />
       <module fileurl="file://$PROJECT_DIR$/SCC/SCC.iml" filepath="$PROJECT_DIR$/SCC/SCC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StanfordAlgo.iml" filepath="$PROJECT_DIR$/.idea/StanfordAlgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Two sum/Two sum.iml" filepath="$PROJECT_DIR$/Two sum/Two sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-max heap/min-max heap.iml" filepath="$PROJECT_DIR$/min-max heap/min-max heap.iml" />
     </modules>
   </component>
