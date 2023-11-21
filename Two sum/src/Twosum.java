@@ -11,16 +11,16 @@ public class Twosum {
         Long[] nums = new Long[1000000];
         for(int i = 0; i < 1000000; i++){
             nums[i] = scanner.nextLong();
+            hashtable.put(nums[i],1);
         }
         int values = 0;
-        for(int i = 0; i < 1000000 ; i++){
-            Long x = nums[i];
-            for(int target = -10000; target <= 10000; target++){
-                if(hashtable.containsKey(target-x) && !hashtable.containsKey(x)){
+        for(int target = -10000; target <= 10000; target++){
+            for(int i = 0; i < nums.length; i++){
+                if(hashtable.containsKey(target-nums[i]) && (target-nums[i]) != nums[i]){
                     values++;
+                    break;
                 }
             }
-            hashtable.put(x,1);
         }
         System.out.println(values);
         scanner.close();
