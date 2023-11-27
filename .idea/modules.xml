@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/StanfordAlgo.iml" filepath="$PROJECT_DIR$/.idea/StanfordAlgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Two sum/Two sum.iml" filepath="$PROJECT_DIR$/Two sum/Two sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-max heap/min-max heap.iml" filepath="$PROJECT_DIR$/min-max heap/min-max heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/schedule jobs/schedule jobs.iml" filepath="$PROJECT_DIR$/schedule jobs/schedule jobs.iml" />
     </modules>
   </component>
 </project>
