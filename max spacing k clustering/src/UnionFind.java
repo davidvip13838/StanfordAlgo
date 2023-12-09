@@ -2,9 +2,12 @@ public class UnionFind {
     private int[] parent;
     private int[] rank;
 
+    private int clusters;
+
     public UnionFind(int size) {
         parent = new int[size];
         rank = new int[size];
+        clusters = size;
 
         // Initialize each element as a separate set with rank 0
         for (int i = 0; i < size; i++) {
@@ -26,6 +29,8 @@ public class UnionFind {
     public void union(int set1, int set2) {
         int root1 = find(set1);
         int root2 = find(set2);
+
+        clusters--;
 
         if (root1 != root2) {
             // Union by rank: Attach the shorter tree to the root of the taller tree
@@ -55,5 +60,9 @@ public class UnionFind {
 
         System.out.println(uf.isConnected(0, 4)); // Should print true
         System.out.println(uf.isConnected(2, 4)); // Should print false
+    }
+
+    public int getClusters() {
+        return clusters;
     }
 }
