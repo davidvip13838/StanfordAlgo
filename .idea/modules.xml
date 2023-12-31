@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/SCC/SCC.iml" filepath="$PROJECT_DIR$/SCC/SCC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/StanfordAlgo.iml" filepath="$PROJECT_DIR$/.idea/StanfordAlgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Two sum/Two sum.iml" filepath="$PROJECT_DIR$/Two sum/Two sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Weighted independent set of path graph/Weighted independent set of path graph.iml" filepath="$PROJECT_DIR$/Weighted independent set of path graph/Weighted independent set of path graph.iml" />
       <module fileurl="file://$PROJECT_DIR$/max spacing k clustering/max spacing k clustering.iml" filepath="$PROJECT_DIR$/max spacing k clustering/max spacing k clustering.iml" />
       <module fileurl="file://$PROJECT_DIR$/min-max heap/min-max heap.iml" filepath="$PROJECT_DIR$/min-max heap/min-max heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/prims MST/prims MST.iml" filepath="$PROJECT_DIR$/prims MST/prims MST.iml" />
